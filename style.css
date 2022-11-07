@@ -1,0 +1,28 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url("background.jpeg");
+    background-repeat: no-repeat;
+    background-size:300%;
+    background-position: top 25%;
+    text-align: center;
+}
+
+a, input {
+    border: none;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #e6bfd1;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px black;
+    color: black;
+}
+
+a:hover, input:hover {
+    box-shadow: 2px 2px 5px black;
+    transition: 100ms;
+}
+
+input:focus {
+    outline: none;
+    background-color: #dfa4bf;
+}
